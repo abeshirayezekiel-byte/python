@@ -1,0 +1,10 @@
+FOOTBALL DUEL DIAGNOSTIC REPORT
+==============================
+Python Version: 3.12.4 (tags/v3.12.4:8e8a4ba, Jun  6 2024, 19:30:16) [MSC v.1940 64 bit (AMD64)]
+
+Error Log:
+Traceback (most recent call last):
+  File "c:\Users\PC\Desktop\python\m6l8cap\main.py", line 71, in <module>
+    for event in pygame.get_event.get():
+                 ^^^^^^^^^^^^^^^^
+AttributeError: module 'pygame' has no attribute 'get_event'

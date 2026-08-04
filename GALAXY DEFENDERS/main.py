@@ -16,7 +16,7 @@ ENEMY_SIZE = 40
 BULLET_WIDTH = 28
 BULLET_HEIGHT = 40
 
-pygame.init()
+pygame.init() 
 pygame.mixer.init()
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
 pygame.mixer.music.load('C:\\Users\\PC\\Downloads\\galaxy defenders\\Pacman-fever (1).mp3')
